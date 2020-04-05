@@ -10,5 +10,6 @@ public:
 
 	Test();
 	//~Test();
+	void SetWords();
 	string GetWords();
 };

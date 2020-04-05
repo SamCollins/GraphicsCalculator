@@ -8,11 +8,11 @@ int main()
 {
 	Test* testObject = new Test();
 
-	std::cout << testObject->GetWords() + "\n";
+	cout << testObject->GetWords() + "\n";
 
-	Test testObject2 = Test();
+	testObject->SetWords();
 
-	cout << testObject2.GetWords();
+	cout << testObject->GetWords();
 
 	return 0;
 }

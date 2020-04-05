@@ -8,14 +8,19 @@ using namespace std;
 //string words;
 
 Test::Test()
+	:words("Init")
 {
-	words = "Sea Plus Plus";
 }
 
 /*~Test()
 {
 
 }*/
+
+void Test::SetWords()
+{
+	words = "Sea Plus Plus";
+}
 
 string Test::GetWords()
 {
